@@ -1,0 +1,5 @@
+GAMETIMER_STARTED = "gametimer.started"
+GAMETIMER_STATE = "gametimer.state"
+GAMETIMER_TIMESTAMP = "gametimer.timestamp"
+GAMETIMER_REMAINING = "gametimer.remaining"
+GAMETIMER_TOTAL = "gametimer.total"
