@@ -1,7 +1,6 @@
 from aioredis import Redis
-from models import *
-import keys as rdk
-
+from .models import *
+from . import keys as rdk
 
 async def get_game_timer(redis:Redis) -> GameTimer:
     (started_on, state, state_change_on, seconds_remaining, seconds_total) = \

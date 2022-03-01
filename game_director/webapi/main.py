@@ -8,7 +8,7 @@ from sse_starlette.sse import EventSourceResponse
 from starlette.responses import JSONResponse as SSEJsonResponse
 from dotenv import load_dotenv
 from os import getenv
-import redis_shared.keys as rdk
+from ..redis_shared import keys as rdk
 
 BASIC_CHANNELS = ["gametimer", "storypoint"]
 GET_MESSAGE_TIMEOUT = 1.0
