@@ -1,0 +1,5 @@
+GAMETIMER_START = "start"
+GAMETIMER_STOP = "stop"
+GAMETIMER_PAUSE = "pause"
+GAMETIMER_ADD = "add"
+GAMETIMER_SET = "set"
